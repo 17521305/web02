@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruh?</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/login.css">
+    <script src="./resources/javascript/login.js"></script>
+    <link rel="icon" type="image/png" sizes="96x96" href="./resources/images/favicon-96x96.png">
+</head>
+<body>
+    <form id="form" action="/" method="GET">
+        <div id="name">
+            <label for="name">Họ Tên</label>
+            <input id="inputname" name="name" type="text" placeholder="Họ Tên...">
+        </div>
+        <div id="password">
+            <label for="password">Mật khẩu</label>
+            <input id="inputpassword" name="password" type="password" placeholder="Mật khẩu...">
+        </div>
+        <button type="button" onclick="return validateForm()">Đăng nhập</button>
+        <div id="hint1"></div>
+        <div id="hint2"></div>
+    </form>
+</body>
+</html>
